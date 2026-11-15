@@ -10,7 +10,8 @@ Unsupervised segmentation of a 1.35-million-loan Lending Club portfolio into bor
 This project supports both CSV and Pickle (.pkl) data formats:
 • Jupyter Notebook workflow uses the original CSV dataset for data cleaning, preprocessing, exploratory data analysis (EDA), feature engineering, and model development.
 • Streamlit Dashboard uses the processed Pickle (.pkl)  and CSV files for faster loading and improved application performance.
-Streamlit project link: http://localhost:8505/
+# Streamlit project link:
+http://localhost:8505/
 This approach ensures efficient data processing during development and quick data retrieval in the deployed dashboard.
 ## Table of Contents
 - [Project Overview](#project-overview)
