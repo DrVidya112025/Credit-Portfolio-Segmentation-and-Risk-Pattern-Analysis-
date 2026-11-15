@@ -6,7 +6,12 @@ Unsupervised segmentation of a 1.35-million-loan Lending Club portfolio into bor
 **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn, scikit-learn, UMAP, Jupyter Notebook
 
 ---
+# Data Source
+This project supports both CSV and Pickle (.pkl) data formats:
+• Jupyter Notebook workflow uses the original CSV dataset for data cleaning, preprocessing, exploratory data analysis (EDA), feature engineering, and model development.
+• Streamlit Dashboard uses the processed Pickle (.pkl)  and CSV files for faster loading and improved application performance.
 
+This approach ensures efficient data processing during development and quick data retrieval in the deployed dashboard.
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Key Principle: No Target Leakage](#key-principle-no-target-leakage)
